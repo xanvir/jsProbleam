@@ -25,10 +25,10 @@ function loadMilestones() {
     </div>`
     }).join('')}`
 
-    function openMilestone(milestoneElement) {
-        const currentPanel = milestoneElement.parentNode.nextElementSibling;
+}
+function openMilestone(milestoneElement) {
+    const currentPanel = milestoneElement.parentNode.nextElementSibling;
 
-        currentPanel.classList.toggle("show")
-    }
+    currentPanel.classList.toggle("show")
 }
 loadMilestones()
